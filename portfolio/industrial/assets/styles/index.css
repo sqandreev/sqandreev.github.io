@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-Light.woff2") format("woff2"),
+      url("../fonts/HKGrotesk-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Bold.woff2") format("woff2"),
+      url("../fonts/LeagueSpartan-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  background-color: #272f45;
+  font-family: "HK Grotesk";
+}
+
+.wrapper {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper .header {
+  padding-top: 63px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+.search-content {
+  width: 176px;
+  color: #92a1a9;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  border: 3px solid transparent;
+  border-bottom:3px solid #63757e;
+  padding-left: 32px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+
+  background-image: url(../images/icons/search.png);
+  background-repeat: no-repeat;
+  background-position: left bottom 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.search-content::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+.search-content::-moz-placeholder { /* Firefox 19+ */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+.search-content:-ms-input-placeholder { /* IE 10+ */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+.search-content:-moz-placeholder { /* Firefox 18- */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+
+/* /header */
+
+/* product-gina */
+
+.product-gina {
+  height: 690px;
+  padding: 110px 60px 118px 60px;
+  background-image: url(../images/bg-gina.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.product-gina h1 {
+  margin-top: 0;
+  margin-bottom: 51px;
+  font-size: 80px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "League Spartan";
+}
+
+.product-gina p {
+  width: 362px;
+  margin-top: 0;
+  margin-bottom: 138px;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.product-gina a {
+  padding: 15px 25px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 24px;
+  color: #ffffff;
+  border: 3px solid #eec9a2;
+}
+
+.product-gina a:hover {
+  background-color: #eec9a2;
+  color: black;
+}
+
+/* /product gina */
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.products-below {
+  margin-bottom: 157px;
+}
+
+/* beoplay */
+
+.product-beoplay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 560px;
+  height: 520px;
+  background-color: #60b8a3;
+  padding: 64px 30px 225px 30px;
+  box-sizing: border-box;
+
+  background-image: url(../images/products/beoplay.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+}
+
+.product-beoplay h2 {
+  margin-top: 0;
+  margin-bottom: 29px;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "League Spartan";
+}
+
+.product-beoplay p {
+  width: 443px;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 63px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.product-buy {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 3px solid #eec9a2;
+  padding: 13px 35px;
+  font-family: "League Spartan";
+  letter-spacing: 3px;
+}
+
+.product-buy:hover {
+  background-color: #eec9a2;
+  color: black;
+}
+
+/* leica */
+
+.product-leica {
+  width: 560px;
+  height: 520px;
+  padding: 64px 30px 225px 30px;
+  background-color: #7778c6;
+  box-sizing: border-box;
+
+  background-image: url(../images/products/leica.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.product-leica h2 {
+  margin-top: 0;
+  margin-bottom: 29px;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "League Spartan";
+}
+
+.product-leica p {
+  width: 337px;
+  margin-top: 0;
+  margin-bottom: 63px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* /leica */
+
+/* molekule */
+
+.product-molekule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 440px;
+  padding-top: 68px;
+  padding-bottom: 229px;
+  background-color: #e97864; 
+  box-sizing: border-box;
+  
+  background-image: url(../images/products/molekule.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.product-molekule p {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.product-molekule h3 {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "League Spartan";
+}
+
+/* molekule */
+
+/* sidnature */
+
+.product-signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 360px;
+  height: 440px;
+  padding-bottom: 37px;
+
+  background-color: #557581;
+  box-sizing: border-box;
+
+  background-image: url(../images/products/signature.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.product-signature p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.product-signature h3 {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "League Spartan";
+}
+
+/* /signature */
+
+/* dr-2 */
+
+.product-dr-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 440px;
+  padding-top: 68px;
+  padding-bottom: 229px;
+  background-color: #82c9d8; 
+  box-sizing: border-box;
+  
+  background-image: url(../images/products/dr-2.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.product-dr-2 p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.product-dr-2 h3 {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "League Spartan";
+}
+
+/* /dr-2 */
+
+/* content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 103px;
+}
+
+.content h4 {
+  margin-top: 0;
+  margin-bottom: 29px;
+  font-size: 36px;
+  color: #92a1a9;
+}
+
+.content p {
+  width: 986px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 55px;
+  font-size: 24px;
+  color: #798a95;
+}
+
+.content form {
+  margin-bottom: 20px;
+  width: 360px;
+}
+
+.email-address {
+  background-color: transparent;
+  border: 3px solid #63757e;
+  padding: 19px 0;
+  width: 100%;
+  font-size: 24px;
+  color: #92a1a9;
+  text-align: center;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.email-address::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+
+.email-address::-moz-placeholder { /* Firefox 19+ */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+
+.email-address:-ms-input-placeholder { /* IE 10+ */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+
+.email-address:-moz-placeholder { /* Firefox 18- */
+  color: #92a1a9;
+  font-size: 24px;
+  font-family: "HK Grotesk";
+}
+
+.email-subscribe {
+  background-color: transparent;
+  border: 3px solid #82c9d8;
+  padding: 19px 0;
+  width: 100%;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.email-subscribe:hover {
+  cursor: pointer;
+  background-color: #82c9d8;
+}
+
+/* /content */
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.navigation li {
+  position: relative;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.navigation li::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 7px;
+  height: 7px;
+  background-color: #92a1a9;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.navigation li:first-child {
+  padding-left: 0;
+}
+
+.navigation li:last-child {
+  padding-right: 0;
+}
+
+.navigation li:last-child::after {
+  content: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #75838e;
+}
+
+.navigation a:hover {
+  color: #ffffff;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 18px;
+  color: #7f919b;
+}
