@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Two bytes</title>
+  </head>
+  <body>
+    <!-- home -->
+    <main class="home">
+      <div class="wrapper">
+        <header class="header">
+          <img class="header__logo" src="assets/images/logo.png" width="133" height="44" alt="twobytes consulting">
+          <nav class="header__navigation">
+            <ul class="header__navigation-list">
+              <li class="header__navigation-item">
+                <a class="header__navigation-link header__navigation-link--active" href="#">Home</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">About us</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">Jobs</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">Clients</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">Employers</a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="home__section">
+          <form class="home__form" action="">
+            <div class="home__block">
+              <label class="home__label">
+                <h1 class="home__title">I’m looking for..</h1>
+                  <input class="home__search" type="search" name="job_search" placeholder="Enter a Job Description"
+                    required>
+              </label>
+
+                <label class="home__checkbox">
+                  <input class="home__checkbox-input visually-hidden" type="checkbox">
+                  <span class="home__checkbox-box"></span>
+                  <span class="home__checkbox-text">Full time</span>
+                </label>
+
+                <label class="home__checkbox">
+                  <input class="home__checkbox-input visually-hidden" type="checkbox">
+                  <span class="home__checkbox-box"></span>
+                  <span class="home__checkbox-text">Part Time / Casual / Freelance</span>
+                </label>
+
+                <select class="home__select" name="user_location">
+                  <option class="home__option">Select your Location</option>
+                  <option class="home__option" value="Russia">Russia</option>
+                </select>
+            </div>
+            <button class="home__button" type="submit">Search</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <!-- /home -->
+
+    <!-- about -->
+    <section class="about">
+      <div class="wrapper">
+        <p class="about__subtitle">We’re leaders in</p>
+        <h2 class="about__title">Creative Digital Recruitment</h2>
+        <p class="about__description">
+          Based in Surry Hills, the creative hub of Sydney we are surrounded by creativity
+          and that reflects on the type of jobs we recruit for.
+        </p>
+        <a class="about__link" href="#">Find out more about us!</a>
+      </div>
+    </section>
+    <!-- /about -->
+
+    <!-- feedback -->
+    <section class="feedback">
+      <div class="wrapper">
+        <form class="feedback__form" action="" method="">
+          <label class="feedback__label">
+            <span class="feedback__text">Subscribe to our Job Seeker Mailing List</span>
+            <input class="feedback__email" type="email" placeholder="Enter Your Email Address" name="user_email" required>
+          </label>
+        </form>
+      </div>
+    </section>
+    <!-- /feedback -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="wrapper">
+        <a class="footer__email" href="mailto:hello@twobytes.com.au">hello@twobytes.com.au</a>
+        <div class="footer__block">
+          <p class="footer__copyright">
+            Copyright © 2014 Two Bytes Consulting.
+            <span class="footer__span">Terms & Policies.</span>
+          </p>
+          <ul class="footer__social">
+            <li class="footer__social-item" data-count="692">
+              <a class="footer__social-link footer__social-link--twitter" href="#" aria-label="Twitter" data-notifications="692">Twitter</a>
+            </li>
+            <li class="footer__social-item" data-count="117">
+              <a class="footer__social-link footer__social-link--facebook" href="#" aria-label="Facebook" data-notifications="117">Facebook</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+  </body>
+</html>
