@@ -1,0 +1,468 @@
+@font-face {
+  font-family: "Gotham Rounded Bold";
+  src: url("../fonts/GothamRounded-Bold.woff2") format("woff2"),
+      url("../fonts/GothamRounded-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Rounded Book";
+  src: url("../fonts/GothamRounded-Book.woff2") format("woff2"),
+      url("../fonts/GothamRounded-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Rounded Medium";
+  src: url("../fonts/GothamRounded-Medium.woff2") format("woff2"),
+      url("../fonts/GothamRounded-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Gotham Rounded Book";
+}
+
+.wrapper {
+  width: 1025px;
+  min-height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home {
+  background-image: url(../images/backgrounds/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  min-height: 745px;
+}
+
+.home .wrapper {
+  padding-top: 45px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__navigation-list {
+  display: flex;
+  align-items: center;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.header__navigation-item {
+  list-style: none;
+  margin-right: 67px;
+}
+
+.header__navigation-item:last-child {
+  margin-right: 0;
+}
+
+.header__navigation-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Gotham Rounded Bold";
+  letter-spacing: 3px;
+}
+
+/* home__section */
+
+.home__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__title {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: "Gotham Rounded Bold";
+}
+
+.home__description {
+  margin-top: 0;
+  margin-bottom: 29px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: "Gotham Rounded Medium";
+  letter-spacing: 3px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Gotham Rounded Bold";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 3px;
+
+  padding: 20px 30px;
+  background-color: #16a085;
+  border-radius: 2px;
+}
+
+.home__social-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.home__social-item {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.home__social-item:last-child {
+  margin-right: 0;
+}
+
+.home__social-link {
+  display: block;
+  width: 23px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.home__social-link--twitter {
+  background-image: url(../images/icons/twitter-icon.svg);
+}
+
+.home__social-link--flickr {
+  background-image: url(../images/icons/flickr-icon.svg);
+}
+
+.home__social-link--dribble {
+  width: 20;
+  height: 21px;
+  background-image: url(../images/icons/dribbble-icon.svg);
+}
+
+/* section */
+
+.section {
+  padding-top: 113px;
+  padding-bottom: 90px;
+}
+
+.section--about {
+  background-color: #f5f6f7;
+  background-image: url(../images/backgrounds/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: right 128px bottom;
+}
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 18px;
+  color: #16a085;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Gotham Rounded Bold";
+}
+
+.section__description {
+  margin-top: 0;
+  margin-bottom: 47px;
+  letter-spacing: 3px;
+  line-height: 25px;
+  
+}
+
+/* design */
+
+.section--design {
+  background-image: url(../images/backgrounds/design-bg.png);
+  background-repeat: no-repeat;
+  background-position: left 128px bottom;
+}
+
+.section--design .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* community */
+
+.community {
+  min-height: 485px;
+  background-color: #f5f6f7;
+}
+
+.community .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.community__block {
+  width: 175px;
+  text-align: center;
+}
+
+.community__logo {
+  margin-bottom: 31px;
+}
+
+.community__title {
+  font-size: 16px;
+  color: #373737;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: "Gotham Rounded Bold";
+  letter-spacing: 2px;
+}
+
+.community__description {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #373737;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Gotham Rounded Medium";
+}
+
+.community__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.community__item {
+  list-style: none;
+  margin-right: 25px;
+}
+
+.community__item:last-child {
+  margin-right: 0;
+}
+
+/* feedback */
+
+.feedback {
+  min-height: 789px;
+  background-image: url(../images/backgrounds/feedback-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feedback .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback__title {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-family: "Gotham Rounded Bold";
+}
+
+.feedback__form {
+  display: flex;
+}
+
+.feedback__input {
+  position: relative;
+  width: 280px;
+  height: 60px;
+  border-radius: 1px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Gotham Rounded Medium";
+  text-transform: uppercase;
+  color: #373737;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.feedback__input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #373737;
+}
+
+.feedback__input::-moz-placeholder { /* Firefox 19+ */
+  color: #373737;
+}
+
+.feedback__input:-ms-input-placeholder { /* IE 10+ */
+  color: #373737;
+}
+
+.feedback__input:-moz-placeholder { /* Firefox 18- */
+  color: #373737;
+}
+
+.feedback__button {
+  position: absolute;
+  width: 63px;
+  height: 60px;
+  padding: 0;
+  background-color: #16a085;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+
+  background-image: url(../images/icons/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* attachment */
+
+.attachment {
+  min-height: 400px;
+  background-color: #f5f6f7;
+}
+
+.attachment .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.attachment__title {
+  font-size: 20px;
+  color: #373737;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 0;
+  margin-bottom: 17px;
+  text-align: center;
+  font-family: "Gotham Rounded Bold";
+}
+
+.attachment__description {
+  font-size: 12px;
+  color: #373737;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 48px;
+  text-align: center;
+  font-family: "Gotham Rounded Medium";
+}
+
+.attachment__block {
+  display: flex;
+  justify-content: center;
+}
+
+.attachment__link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #1abc9c;
+  padding: 20px 70px 20px 30px;
+  font-family: "Gotham Rounded Bold";
+  margin-right: 25px;
+}
+
+.attachment__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56px;
+  height: 56px;
+  background-color: #16a085;
+}
+
+.attachment__link--apple::after {
+  background-image: url(../images/icons/apple-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.attachment__link--android::after {
+  background-image: url(../images/icons/android-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* footer */
+
+.footer {
+  min-height: 130px;
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.footer__item {
+  list-style: none;
+  padding-left: 10px;
+  border-right: 3px solid #16a085;
+  padding-right: 10px;
+}
+
+.footer__item:first-child {
+  padding-left: 0;
+}
+
+.footer__item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.footer__link {
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #373737;
+  text-transform: uppercase;
+  font-family: "Gotham Rounded Bold";
+}
+
+.footer__copyright {
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #373737;
+  font-family: "Gotham Rounded Bold";
+}
