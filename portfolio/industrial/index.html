@@ -1,96 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Industrial</title>
-  <link rel="stylesheet" href="assets/styles/index.css">
-</head>
-<body>
-  <div class="wrapper">
+  <head>
+    <meta charset="UTF-8">
+    <title>Industrial</title>
+    <link rel="stylesheet" href="assets/styles/index.css">
+  </head>
+  <body class="page">
     <!-- header -->
-    <header class="header">
-      <img src="assets/images/logo.svg" width="293" height="71" alt="Industrial Design">
-      <form action="">
-        <input class="search-content" type="text" placeholder="Search">
+    <header class="page__header header">
+      <img class="header__logo" src="assets/images/logo.svg" width="293" height="71" alt="Industrial Design">
+      <form class="header__form" action="" method="">
+        <input class="header__search" type="search" name="header_search" placeholder="Search" aria-label="Search" required>
       </form>
     </header>
     <!-- /header -->
 
-    <section class="product-gina">
-      <h1>Gina</h1>
-      <p>
-        A coffee instrument combining classic coffee techniques with the latest technology 
-      </p>
-      <a href="#">Shop now</a>
-    </section>
-
-    <section class="products">
-      <div class="product-beoplay">
-        <h2>Beoplay a1</h2>
-        <p>
-          The ultra-portable Bluetooth speaker that will travel with you anywhere
+    <!-- product -->
+    <figure class="page__product product product--gina">
+      <img class="product__image" src="assets/images/products/gina.png" width="1160" height="690" alt="Gina">
+      <figcaption class="product__figcaption product__figcaption--large">
+        <h1 class="product__title product__title--large">Gina</h1>
+        <p class="product__description product__description--large">
+          A coffee instrument combining classic coffee techniques with the latest technology 
         </p>
-        <a class="product-buy" href="#">Buy</a>
-      </div>
-      
-      <div class="product-leica">
-        <h2>Leica mp</h2>
-        <p>Focused technology for focused photography</p>
-        <a class="product-buy" href="#">Buy</a>
-      </div>
-    </section>
+        <a class="product__button product__button--large" href="#">Shop now</a>
+      </figcaption>
+    </figure>
 
-    <section class="products products-below">
-      <div class="product-molekule">
-        <p>The world’s first molecular air purifier.</p>
-        <h3>Molekule</h3>
-        <a class="product-buy" href="#">Details</a>
-      </div>
+    <figure class="page__product product product--beoplay-a1">
+      <img class="product__image product__image--beoplay-a1" src="assets/images/products/beoplay-a1.png" width="367" height="313" alt="Beoplay A1">
+      <figcaption class="product__figcaption product__figcaption--reverse product__figcaption--medium">
+        <h2 class="product__title product__title--medium">Beoplay A1</h2>
+        <p class="product__description product__description--medium product__description--beoplay-a1">
+          The ultra-portable Bluetooth speaker that <br> will travel with you anywhere
+        </p>
+        <a class="product__button product__button--medium" href="#">Buy</a>
+      </figcaption>
+    </figure>
 
-      <div class="product-signature">
-        <p>Bowers & Wilkins</p>
-        <h3>p9 signature</h3>
-        <a class="product-buy" href="#">Details</a>
-      </div>
+    <figure class="page__product product product--leica-mp">
+      <img class="product__image product__image--leica-mp" src="assets/images/products/leica-mp.png" width="422" height="279" alt="Leica mp">
+      <figcaption class="product__figcaption product__figcaption--medium">
+        <h2 class="product__title product__title--medium">Leica mp</h2>
+        <p class="product__description product__description--medium">
+          Focused technology for focused <br> photography
+        </p>
+        <a class="product__button product__button--medium" href="#">Buy</a>
+      </figcaption>
+    </figure>
 
-      <div class="product-dr-2">
-        <p>An homage to Dieter Rams</p>
-        <h3>DR-II</h3>
-        <a class="product-buy" href="#">Details</a>
-      </div>
-    </section>
+    <figure class="page__product product product--molekule">
+      <img class="product__image product__image--molekule" src="assets/images/products/molekule.png" width="252" height="184" alt="Molekule">
+      <figcaption class="product__figcaption">
+        <p class="product__description">
+          The world’s first molecular air purifier.
+        </p>
+        <h3 class="product__title">Molekule</h3>
+        <a class="product__button" href="#">Details</a>
+      </figcaption>
+    </figure>
 
-    <section class="content">
-      <h4>Get our freshest content delivered to your inbox</h4>
-      <p>
+    <figure class="page__product product product--p9-signature">
+      <img class="product__image product__image--p9-signature" src="assets/images/products/p9-signature.png" width="252" height="184" alt="P9 Signature">
+      <figcaption class="product__figcaption product__figcaption--signature">
+        <p class="product__description">
+          Bowers & Wilkins
+        </p>
+        <h3 class="product__title">P9 Signature</h3>
+        <a class="product__button" href="#">Details</a>
+      </figcaption>
+    </figure>
+
+    <figure class="page__product product product--dr">
+      <img class="product__image product__image--dr" src="assets/images/products/dr.png" width="252" height="184" alt="DR-II">
+      <figcaption class="product__figcaption">
+        <p class="product__description">
+          An homage to Dieter Rams
+        </p>
+        <h3 class="product__title">DR-II</h3>
+        <a class="product__button" href="#">Details</a>
+      </figcaption>
+    </figure>
+    <!-- /product -->
+
+    <!-- newsletter -->
+    <section class="page__newsletter newsletter">
+      <h4 class="newsletter__title">Get our freshest content delivered to your inbox</h4>
+      <p class="newsletter__description">
         For the latest stories, news, events, promotions and exclusive offers, sign up today. We know you get a lot of emails, but we promise... ours is the one you want.
       </p>
-      <form action="">
-        <input class="email-address" type="email" placeholder="Your email" required>
-        <button class="email-subscribe" type="submit">Subscribe</button>
+      <form class="newsletter__form" action="" method="">
+        <input class="newsletter__input" type="email" name="user_email" aria-label="Your email" placeholder="Your email" required>
+        <button class="newsletter__button" type="submit">Subscribe</button>
       </form>
     </section>
+    <!-- /newsletter -->
 
-    <footer class="footer">
-      <ul class="navigation">
-        <li>
-          <a href="#">About</a>
+    <!-- footer -->
+    <footer class="page__footer footer">
+      <ul class="footer__navigation">
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="#">About</a>
         </li>
-        <li>
-          <a href="#">Search</a>
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="#">Search</a>
         </li>
-        <li>
-          <a href="#">Contact</a>
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="#">Contact</a>
         </li>
-        <li>
-          <a href="#">Facebook</a>
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="#">Facebook</a>
         </li>
-        <li>
-          <a href="#">Twitter</a>
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="#">Twitter</a>
         </li>
       </ul>
-      <p class="copyright">© Industrial Design Magazine</p>
+      <p class="footer__copyright">© Industrial Design Magazine</p>
     </footer>
-  </div>
-</body>
+    <!-- footer -->
+  </body>
 </html>
