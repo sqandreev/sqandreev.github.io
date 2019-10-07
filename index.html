@@ -1,527 +1,112 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Useful Language | Главная страница</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic"
-    />
-    <link rel="stylesheet" href="assets/styles/normalize.css" />
-    <link rel="stylesheet" href="assets/styles/common.css" />
-    <link rel="stylesheet" href="assets/styles/index.css" />
-    <meta
-      name="keywords"
-      content="useful-language, language, useful, глобализация, языки, люди, коммуникация"
-    />
-    <meta
-      name="description"
-      content="Вас приветствует школа иностранных языков Useful language, главное для нашей организации - это эффективное обучение английскому языку."
-    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vladislav Andreev</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 1em;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        line-height: 1.4;
+      }
+      @media (min-width: 1200px) {
+        body {
+          margin: 3em;
+        }
+      }
+      @media (min-width: 1200px) {
+        body {
+          flex-direction: row;
+        }
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1.2em;
+      }
+      @media (min-width: 1200px) {
+        img {
+          margin-right: 2.5em;
+          margin-bottom: 0;
+        }
+      }
+      h1 {
+        margin-top: 0;
+        margin-bottom: 0.7em;
+        font-size: 2em;
+      }
+      @media (min-width: 1200px) {
+        h1 {
+          font-size: 2.5em;
+        }
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 1.5em;
+        font-size: 1em;
+      }
+      @media (min-width: 1200px) {
+        p {
+          font-size: 1.5em;
+        }
+      }
+      a {
+        font-size: 1.1em;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      @media (min-width: 1200px) {
+        a {
+          font-size: 1.3em;
+        }
+      }
+    </style>
   </head>
-  <body class="page">
-    <!-- header -->
-    <header class="page__header header">
-      <img
-        src="assets/images/svg/content/logo.svg"
-        width="285"
-        height="42"
-        alt="Useful language"
-      />
-      <nav class="header__navigation">
-        <ul class="header__navigation-list">
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#about">О нас</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#courses">Курсы</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#teachers"
-              >Преподаватель</a
-            >
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#consultation"
-              >Консультация</a
-            >
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#comments">Отзывы</a>
-          </li>
-        </ul>
-        <button
-          class="header__menu"
-          type="button"
-          aria-label="Показать навигацию"
-        ></button>
-      </nav>
-    </header>
-    <!-- /header -->
-
-    <!-- main -->
-    <main class="page__main main">
-      <!-- promo -->
-      <section class="main__promo promo">
-        <h1 class="promo__title">
-          Глобализация. Языки. <br class="promo__break" />
-          Люди. Коммуникация.
-        </h1>
-      </section>
-      <!-- /promo -->
-
-      <!-- about -->
-      <section class="main__about about" id="about">
-        <div class="box">
-          <h2 class="box__title box__title--reverse title">О нас</h2>
-          <div class="about__section">
-            <p class="about__description">
-              Вас приветствует школа иностранных языков Useful language, главное
-              для нашей организации — это эффективное обучение своих клиентов и
-              извлечение из данного процесса максимальной пользы для изучающего.
-            </p>
-            <p class="about__description">
-              Несколько основных принципов, которые пропагандирует школа Useful
-              language:
-            </p>
-            <ol class="about__list">
-              <li class="about__list-item">
-                <p class="about__description">
-                  Изучение как развлечение - долой скучные материалы, акцент
-                  сделан на повышении эрудиции обучаемого, разнообразии
-                  изучаемых материалов и вовлечении обучаемого в процесс
-                  изучения.
-                </p>
-              </li>
-              <li class="about__list-item">
-                <p class="about__description">
-                  Для эффективного обучения и наилучшего усвоения материала мы
-                  стараемся учитывать особенности каждого ученика, чтобы сделать
-                  обучение максимально комфортным и увлекательным.
-                </p>
-              </li>
-              <li class="about__list-item">
-                <p class="about__description">
-                  Погружение в язык и доступность материалов для изучения. Всю
-                  пройденную информацию можно будет просматривать в любое
-                  доступное для вас время дня и ночи.
-                </p>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </section>
-      <!-- /about -->
-
-<!-- courses -->
-      <section class="courses" id="courses">
-        <h2 class="courses__main-title title title--line">Курсы</h2>
-        <div class="courses__wrapper">
-          <section class="courses__section courses__section--beginner">
-            <h3 class="courses__title">Beginner</h3>
-            <div class="courses__levels">
-              <h4 class="courses__levels-title">Степень сложности:</h4>
-              <ul class="courses__levels-list">
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-              </ul>
-            </div>
-            <p class="courses__subtitle">Чему вы научитесь:</p>
-            <ul class="courses__skills">
-              <li class="courses__skills-item">Будете знать алфавит английского языка</li>
-              <li class="courses__skills-item">Начнете читать слова на английском языке используя транскрипцию</li>
-              <li class="courses__skills-item">Овладеете базовыми фразами приветствия и не только</li>
-              <li class="courses__skills-item">Изучите грамматические основы английского языка</li>
-              <li class="courses__skills-item">Поймете логику построения предложений в английском языке</li>
-              <li class="courses__skills-item">Выработаете правильное произношение</li>
-            </ul>
-            <a class="courses__link" href="course.html">Подробнее</a>
-          </section>
-          <section class="courses__section courses__section--elementary">
-            <h3 class="courses__title">Elementary</h3>
-            <div class="courses__levels">
-              <h4 class="courses__levels-title">Степень сложности:</h4>
-              <ul class="courses__levels-list">
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-              </ul>
-            </div>
-            <p class="courses__subtitle">Чему вы научитесь:</p>
-            <ul class="courses__skills">
-              <li class="courses__skills-item">Расширите словарный запас</li>
-              <li class="courses__skills-item">Научитесь формировать более сложные структурные предложения</li>
-              <li class="courses__skills-item">Улучшите свое произношение</li>
-              <li class="courses__skills-item">Расширите знания в грамматике английского языка</li>
-              <li class="courses__skills-item">Сформируете фундамент для поездок в другие страны</li>
-              <li class="courses__skills-item">Изучите тонкости ситуативного общения</li>
-            </ul>
-            <a class="courses__link" href="course.html">Подробнее</a>
-          </section>
-          <section class="courses__section courses__section--pre-intermediate">
-            <h3 class="courses__title">Pre-intermediate</h3>
-            <div class="courses__levels">
-              <h4 class="courses__levels-title">Степень сложности:</h4>
-              <ul class="courses__levels-list">
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-              </ul>
-            </div>
-            <p class="courses__subtitle">Чему вы научитесь:</p>
-            <ul class="courses__skills">
-              <li class="courses__skills-item">Преодолеете языковый барьер при общении на более сложные темы</li>
-              <li class="courses__skills-item">Расширите словарный запас</li>
-              <li class="courses__skills-item">Расширите базу грамматики необходимую для общения на более сложные темы</li>
-              <li class="courses__skills-item">Улучшите свое произношение</li>
-              <li class="courses__skills-item">Поймете логику описания тех или иных событий, используя необходимый инструментарий грамматики</li>
-              <li class="courses__skills-item">Сформируете основу для перехода на следующий уровень общения</li>
-            </ul>
-            <a class="courses__link" href="course.html">Подробнее</a>
-          </section>
-          <section class="courses__section courses__section--intermediate">
-            <h3 class="courses__title">Intermediate</h3>
-            <div class="courses__levels">
-              <h4 class="courses__levels-title">Степень сложности:</h4>
-              <ul class="courses__levels-list">
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li class="courses__levels-item"></li>
-                <li class="courses__levels-item"></li>
-              </ul>
-            </div>
-            <p class="courses__subtitle">Чему вы научитесь:</p>
-            <ul class="courses__skills">
-              <li class="courses__skills-item">Сможете общаться на любые темы</li>
-              <li class="courses__skills-item">Расширите словарный запас</li>
-              <li class="courses__skills-item">Глубоко изучите грамматику и почти все тонкости построения сложных предложений</li>
-              <li class="courses__skills-item">Улучшите свое произношение</li>
-              <li class="courses__skills-item">Пасивыне знания (словарный запас и др.) станут активными</li>
-              <li class="courses__skills-item">Сможите формировать сложные предложения автоматически</li>
-            </ul>
-            <a class="courses__link" href="course.html">Подробнее</a>
-          </section>
-          <section
-            class="courses__section courses__section--upper-intermediate"
-          >
-            <h3 class="courses__title">Upper-intermediate</h3>
-            <div class="courses__levels">
-              <h4 class="courses__levels-title">Степень сложности:</h4>
-              <ul class="courses__levels-list">
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li class="courses__levels-item"></li>
-              </ul>
-            </div>
-            <p class="courses__subtitle">Чему вы научитесь:</p>
-            <ul class="courses__skills">
-              <li class="courses__skills-item">Преодолеете языковой барьер</li>
-              <li class="courses__skills-item">Начнете бегло разговаривать</li>
-              <li class="courses__skills-item">
-                Улучшите произношение и избавитесь от акцента
-              </li>
-              <li class="courses__skills-item">
-                Станете уверенно понимать собеседника
-              </li>
-              <li class="courses__skills-item">
-                Смотреть фильмы и сериалы на языке оригинала
-              </li>
-              <li class="courses__skills-item">
-                Закрепите материал по курсу общего английского
-              </li>
-            </ul>
-            <a class="courses__link" href="course.html">Подробнее</a>
-          </section>
-          <section class="courses__section courses__section--advanced">
-            <h3 class="courses__title">Advanced</h3>
-            <div class="courses__levels">
-              <h4 class="courses__levels-title">Степень сложности:</h4>
-              <ul class="courses__levels-list">
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-                <li
-                  class="courses__levels-item courses__levels-item--current"
-                ></li>
-              </ul>
-            </div>
-            <p class="courses__subtitle">Чему вы научитесь:</p>
-            <ul class="courses__skills">
-              <li class="courses__skills-item">Преодолеете языковой барьер</li>
-              <li class="courses__skills-item">Начнете бегло разговаривать</li>
-              <li class="courses__skills-item">
-                Улучшите произношение и избавитесь от акцента
-              </li>
-              <li class="courses__skills-item">
-                Станете уверенно понимать собеседника
-              </li>
-              <li class="courses__skills-item">
-                Смотреть фильмы и сериалы на языке оригинала
-              </li>
-              <li class="courses__skills-item">
-                Закрепите материал по курсу общего английского
-              </li>
-            </ul>
-            <a class="courses__link" href="course.html">Подробнее</a>
-          </section>
-        </div>
-      </section>
-      <!-- /courses -->
-
-
-      <!-- teachers -->
-      <section class="main__teachers teachers" id="teachers">
-        <h2 class="teachers__title title title--line">Преподаватель</h2>
-        <figure class="teachers__figure">
-          <img
-            class="teachers__image"
-            src="assets/images/teachers/sergey.jpg"
-            width="481"
-            height="541"
-            alt="Балякин Сергей Алексеевич"
-          />
-          <figcaption class="teachers__figcaption">
-            <h3 class="teachers__title">Балякин Сергей Алексеевич</h3>
-            <p class="teachers__description">
-              Стаж преподавания более 4 лет., большой опыт работы с английским
-              языком (перевод, общение, разработка документации), опыт работы в
-              международных компаниях, большой опыт работы с носителями языка,
-              является сертифицированным специалистом международного уровня по
-              информационным технологиям.
-            </p>
-            <p class="teachers__description">
-              <strong>Уровни преподавания:</strong> Beginner - Advanced,
-              подготовка к ЕГЭ, английский в информационных технологиях.
-            </p>
-          </figcaption>
-        </figure>
-      </section>
-      <!-- /teachers -->
-
-      <!-- consultation -->
-      <section class="consultation" id="consultation">
-        <h2 class="consultation__title title title--line">
-          Получите первую консультацию по курсам английского языка
-        </h2>
-        <form class="consultation__form" action="" method="">
-          <input
-            class="consultation__input"
-            type="text"
-            name="user_name"
-            placeholder="Имя"
-            required
-          />
-          <input
-            class="consultation__input"
-            type="email"
-            name="user_email"
-            placeholder="E-mail"
-            required
-          />
-          <input
-            class="consultation__input"
-            type="tel"
-            name="user_phone"
-            placeholder="Телефон"
-            required
-          />
-          <button class="consultation__button" type="submit">Отправить</button>
-        </form>
-      </section>
-      <!-- /consultation -->
-    </main>
-    <!-- /main -->
-
-    <!-- comments -->
-    <section class="comments" id="comments">
-      <h2 class="comments__title title title--line">Отзывы учеников</h2>
-      <div class="comments__block">
-        <button
-          class="comments__button comments__button--previous"
-          type="button"
-          aria-label="Предыдущий отзыв"
-        ></button>
-        <button
-          class="comments__button comments__button--next"
-          type="button"
-          aria-label="Следующий комментарий"
-        ></button>
-        <div class="comments__wrapper">
-          <ul class="comments__list">
-            <li class="comments__item" data-count="0">
-              <figure class="comments__figure">
-                <img
-                  class="comments__image"
-                  src="assets/images/comments/avatar.png"
-                  width="200"
-                  height="200"
-                  alt="Владислав Андреев"
-                />
-                <figcaption class="comments__figcaption">
-                  <h3 class="comments__author">Владислав Андреев</h3>
-                  <blockquote class="comments__quote">
-                    Познание текста, несмотря на то, что все эти
-                    характерологические черты отсылают не к единому образу
-                    нарратора, приводит коммунальный модернизм. Абстрактное
-                    высказывание прекрасно редуцирует ямб.
-                  </blockquote>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="comments__item" data-count="1">
-              <figure class="comments__figure">
-                <img
-                  class="comments__image"
-                  src="assets/images/comments/avatar.png"
-                  width="100"
-                  height="100"
-                  alt="Владислав Андреев"
-                />
-                <figcaption class="comments__figcaption">
-                  <h3 class="comments__author">Владислав Андреев</h3>
-                  <p class="comments__description">
-                    Познание текста, несмотря на то, что все эти
-                    характерологические черты отсылают не к единому образу
-                    нарратора, приводит коммунальный модернизм. Абстрактное
-                    высказывание прекрасно редуцирует ямб.
-                  </p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="comments__item" data-count="2">
-              <figure class="comments__figure">
-                <img
-                  class="comments__image"
-                  src="assets/images/comments/avatar.png"
-                  width="100"
-                  height="100"
-                  alt="Владислав Андреев"
-                />
-                <figcaption class="comments__figcaption">
-                  <h3 class="comments__author">Владислав Андреев</h3>
-                  <p class="comments__description">
-                    Познание текста, несмотря на то, что все эти
-                    характерологические черты отсылают не к единому образу
-                    нарратора, приводит коммунальный модернизм. Абстрактное
-                    высказывание прекрасно редуцирует ямб.
-                  </p>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <ul class="comments-count">
+  <body>
+    <img src="avatar.jpg" width="460" height="460" alt="Vladislav Andreev">
+    <section>
+      <h1>Vladislav Andreev</h1>
+      <p>
+        Hi! I am a front-end web-developer. I live in Moscow. <br> My works: <br>
+      </p>
+      <ul>
+        <li>
+          <a href="portfolio/industrial/index.html" title="Industrial" target="_blank">Industrial</a>
+        </li>
+        <li>
+          <a href="portfolio/travelly/index.html" title="Travelly" target="_blank">Travelly</a>
+        </li>
+        <li>
+          <a href="portfolio/jonathan/index.html" title="Jonathan" target="_blank">Jonathan</a>
+        </li>
+        <li>
+          <a href="portfolio/perth/index.html" title="Perth" target="_blank">Perth</a>
+        </li>
+        <li>
+          <a href="portfolio/tech-and-design/index.html" title="Tech &amp; design" target="_blank">Tech &amp; Design</a>
+        </li>
+        <li>
+          <a href="portfolio/useful-language/index.html" title="Useful langugae">Useful language</a>
+        </li>
+        <li>
+          <a href="portfolio/simple-form/index.html" title="Simple form" target="_blank">Simple form</a>
+        </li>
+        <li>
+          <a href="portfolio/two-bytes/index.html" title="Two Bytes" target="_blank">Two Bytes</a>
+        </li>
+        <li>
+          <a href="portfolio/design-lab/index.html" title="Design Lab">Design Lab</a>
+        </li>
+        <li>
+          <a href="portfolio/photo-time/index.html" title="Photo time">Photo time</a>
+        </li>
       </ul>
     </section>
-    <!-- /comments -->
-
-    <!-- footer -->
-    <footer class="page__footer footer">
-      <p class="footer__copyright">&copy; Все права защищены 2019</p>
-      <ul class="footer__social">
-        <li class="footer__social-item">
-          <a
-            class="footer__social-link"
-            href="https://vk.com"
-            rel="noopener noreferrer"
-            aria-label="Наш вконтакте"
-            target="_blank"
-          >
-            <svg class="footer__social-icon footer__social-icon--vk">
-              <use xlink:href="assets/images/social-icons.svg#vk" />
-            </svg>
-          </a>
-        </li>
-        <li class="footer__social-item">
-          <a
-            class="footer__social-link"
-            href="https://instagram.com"
-            rel="noopener noreferrer"
-            aria-label="Наш инстаграм"
-            target="_blank"
-          >
-            <svg class="footer__social-icon footer__social-icon--instagram">
-              <use xlink:href="assets/images/social-icons.svg#instagram" />
-            </svg>
-          </a>
-        </li>
-        <li class="footer__social-item">
-          <a
-            class="footer__social-link"
-            href="https://youtube.com"
-            rel="noopener noreferrer"
-            aria-label="Наш ютуб"
-            target="_blank"
-          >
-            <svg class="footer__social-icon footer__social-icon--youtube">
-              <use xlink:href="assets/images/social-icons.svg#youtube" />
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </footer>
-    <!-- /footer -->
-    <script src="assets/scripts/common.js"></script>
-    <script src="assets/scripts/comments.js"></script>
   </body>
 </html>
