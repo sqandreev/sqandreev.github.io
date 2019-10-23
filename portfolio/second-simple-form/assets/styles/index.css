@@ -1,0 +1,151 @@
+html {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81cdd1;
+
+  height: 100vh;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 25rem;
+  height: 20.833rem;
+  box-sizing: border-box;
+  padding: 2.083rem;
+  border-radius: 0.291rem;
+
+  background-image: linear-gradient(
+    to bottom,
+    #fc6539 0% 70%,
+    #ba3c24 70% 100%
+  );
+}
+
+
+.form__title {
+  margin-top: 0;
+  margin-bottom: 1.666rem;
+  font-size: 1rem;
+
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+
+  font-weight: 800;
+}
+
+.form__input {
+  width: 20.833rem;
+  height: 2.916rem;
+  border-radius: 0.125rem;
+  border: none;
+  padding-left: 0.833rem;
+  padding-right: 0.833rem;
+  box-sizing: border-box;
+  margin-bottom: 1.041rem;
+
+  font-size: 1.041rem;
+  color: #fff;
+  background-color: #ba3c24;
+
+  outline: none;
+  border: 0.125rem solid transparent;
+
+  transition-property: background-color, border;
+  transition-duration: 0.75s;
+}
+
+.form__input:hover {
+  background-color: #8f2e1c;
+}
+
+.form__input:focus {
+  border: 0.125rem solid #fff;
+  background-color: #652013;
+}
+
+.form__input:last-of-type {
+  margin-bottom: 4.166rem;
+}
+
+.form__input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 1.0141rem;
+  color: #fff;
+}
+.form__input::-moz-placeholder { /* Firefox 19+ */
+  font-size: 1.041rem;
+  color: #fff;
+}
+.form__input:-ms-input-placeholder { /* IE 10+ */
+  font-size: 1.041rem;
+  color: #fff;
+}
+.form__input:-moz-placeholder { /* Firefox 18- */
+  font-size: 1.041rem;
+  color: #fff;
+}
+
+.form__link {
+  display: flex;
+  align-items: center;
+  font-size: 1.041rem;
+  color: #fff;
+  margin-right: 1.666rem;
+
+  text-decoration: none;
+
+  outline: none;
+}
+
+.form__link:hover,
+.form__link:focus {
+  text-decoration: underline;
+}
+
+.form__button {
+  width: 10.416rem;
+  height: 2.916rem;
+  
+  font-size: 1.041rem;
+  background-color: #fff;
+  color: #ba3c24;
+  border: none;
+
+  text-transform: capitalize;
+
+  cursor: pointer;
+  border-radius: 0.208rem;
+
+  transition-property: color, background-color;
+  transition-duration: 0.75s;
+
+  outline: none;
+}
+
+.form__button:hover,
+.form__button:focus {
+  color: #fff;
+  background-color: #fc6539;
+}
